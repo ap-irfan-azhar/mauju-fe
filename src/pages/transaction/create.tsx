@@ -37,7 +37,7 @@ const CreateTransaction = () => {
       }
       const res = await createTransaction(payload)
       if (res.status === 'success') {
-        router.push('/')
+        router.push('/transaction')
       }
     } catch (err) {
       // @ts-ignore

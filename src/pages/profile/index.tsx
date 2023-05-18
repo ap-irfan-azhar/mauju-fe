@@ -26,6 +26,7 @@ const Profile = () => {
     try {
       const res = await me()
       if (res.status === 'success') {
+        // @ts-ignore
         setUser(res.data.user)
       }
     } catch (err) {

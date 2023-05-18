@@ -18,6 +18,7 @@ const Navbar = () => {
     <Box 
       sx={{ padding: 4, display: 'flex', flexDirection: 'row', alignItems: 'end', width: '100vw' }}
       component="div"
+      // @ts-ignore
       backgroundColor="primary.secondary"
     >
       <Button

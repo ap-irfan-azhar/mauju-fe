@@ -157,6 +157,14 @@ const TransactionList = () => {
                 </TableBody>
               </Table>
             </TableContainer>
+            <Button
+              variant="contained"
+              onClick={() => router.push('/transaction/create')}
+              sx={{ marginTop: 2 }}
+              color="success"
+            >
+              Create Transaction
+            </Button>
           </Paper>
         </Box>
       </Container>
